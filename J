@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Handmade Jewelry</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: #fdf7f9;
+      color: #333;
+    }
+
+    header {
+      background: #e6c3d5;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: #4a2e3c;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    h2 {
+      color: #4a2e3c;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    footer {
+      margin-top: 40px;
+      background: #e6c3d5;
+      padding: 15px;
+      text-align: center;
+      color: #4a2e3c;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Handmade Jewelry</h1>
+    <p>Unique pieces crafted with love</p>
+  </header>
+
+  <section>
+    <h2>About Us</h2>
+    <p>
+      All our jewelry pieces are handmade with care and passion. Each item is designed 
+      to be unique and meaningful, created using quality materials and artisanal techniques.
+    </p>
+    <p>
+      A percentage of every purchase is donated to a charity association to support 
+      meaningful causes. When you buy from us, you are not only getting a beautiful piece 
+      of jewelry—you are also helping make a difference.
+    </p>
+  </section>
+
+  <section>
+    <h2>Our Creations</h2>
+
+    <div class="products">
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Jewelry piece 1">
+        <h3>Elegant Bracelet</h3>
+        <p>Handmade with natural stones.</p>
+      </div>
+
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Jewelry piece 2">
+        <h3>Golden Necklace</h3>
+        <p>Delicate and timeless design.</p>
+      </div>
+
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Jewelry piece 3">
+        <h3>Crystal Earrings</h3>
+        <p>Shimmering crystals, handmade finish.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Handmade Jewelry – All rights reserved.</p>
+    <p>A percentage of all sales is donated to charity.</p>
+  </footer>
+
+</body>
+</html>
